@@ -1,0 +1,37 @@
+body {
+    display: flex;
+    margin: 0;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    font-family:monospace;
+
+}
+
+header {
+    text-align: center;
+}
+
+#pregunta1{
+    
+}
+
+#pregunta2{
+
+}
+
+button{
+    height: 10vh;
+    width: 20vh;
+    text-align: center;
+    cursor: pointer;
+    background-color: #e93333; /* Color de fondo del botón */
+    color: #fff; /* Color de texto del botón */
+    border: none;
+    border-radius: 4px;
+    margin-top: 1vh;
+}
+
+button:hover {
+    background-color: #971010; /* Color de fondo al pasar el cursor */
+}

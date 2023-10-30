@@ -1,0 +1,203 @@
+const miArrayPreguntas  = [
+    {
+        pregunta: "¿Cuál es el metal más abundante en la corteza terrestre?",
+        opciones: {
+            A: "Oro",
+            B: "Hierro",
+            C: "Plata",
+            D: "Cobre"
+        },
+        respuestaCorrecta: "B"
+    },
+    {
+        pregunta: "¿Cuál es el río más largo del mundo?",
+        opciones: {
+            A: "Amazonas",
+            B: "Nilo",
+            C: "Misisipi",
+            D: "Yangtsé"
+        },
+        respuestaCorrecta: "B"
+    },
+    {
+        pregunta: "¿En qué año se llevó a cabo la Revolución Rusa?",
+        opciones: {
+            A: "1917",
+            B: "1923",
+            C: "1905",
+            D: "1932"
+        },
+        respuestaCorrecta: "A"
+    },
+    {
+        pregunta: "¿Cuál es el símbolo químico del oro?",
+        opciones: {
+            A: "Ag",
+            B: "Ge",
+            C: "Au",
+            D: "Go"
+        },
+        respuestaCorrecta: "C"
+    },
+    {
+        pregunta: "¿Quién escribió 'Don Quijote de la Mancha'?",
+        opciones: {
+            A: "Miguel de Cervantes",
+            B: "Federico García Lorca",
+            C: "Pablo Neruda",
+            D: "Gabriel García Márquez"
+        },
+        respuestaCorrecta: "A"
+    },
+    {
+        pregunta: "¿Cuál es el planeta más grande del sistema solar?",
+        opciones: {
+            A: "Venus",
+            B: "Marte",
+            C: "Júpiter",
+            D: "Urano"
+        },
+        respuestaCorrecta: "C"
+    },
+    {
+        pregunta: "¿Cuál es la capital de Australia?",
+        opciones: {
+            A: "Sídney",
+            B: "Melbourne",
+            C: "Canberra",
+            D: "Brisbane"
+        },
+        respuestaCorrecta: "C"
+    },
+    {
+        pregunta: "¿Quién fue el primer presidente de los Estados Unidos?",
+        opciones: {
+            A: "Thomas Jefferson",
+            B: "John Adams",
+            C: "George Washington",
+            D: "Benjamin Franklin"
+        },
+        respuestaCorrecta: "C"
+    },
+    {
+        pregunta: "¿Cuál es el país más grande del mundo en términos de superficie?",
+        opciones: {
+            A: "China",
+            B: "Estados Unidos",
+            C: "Canadá",
+            D: "Rusia"
+        },
+        respuestaCorrecta: "D"
+    },
+    {
+        pregunta: "¿Cuál es el océano más grande del mundo?",
+        opciones: {
+            A: "Océano Atlántico",
+            B: "Océano Índico",
+            C: "Océano Pacífico",
+            D: "Océano Ártico"
+        },
+        respuestaCorrecta: "C"
+    },
+    {
+        pregunta: "¿Quién pintó la 'Mona Lisa'?",
+        opciones: {
+            A: "Vincent van Gogh",
+            B: "Leonardo da Vinci",
+            C: "Pablo Picasso",
+            D: "Rembrandt"
+        },
+        respuestaCorrecta: "B"
+    },
+    {
+        pregunta: "¿Cuál es el país más poblado del mundo?",
+        opciones: {
+            A: "India",
+            B: "Estados Unidos",
+            C: "China",
+            D: "Brasil"
+        },
+        respuestaCorrecta: "C"
+    },
+    {
+        pregunta: "¿Cuál es el proceso natural por el cual las plantas producen alimentos a partir de la luz solar?",
+        opciones: {
+            A: "Fotosíntesis",
+            B: "Respiración",
+            C: "Fermentación",
+            D: "Digestión"
+        },
+        respuestaCorrecta: "A"
+    },
+    {
+        pregunta: "¿En qué continente se encuentra Egipto?",
+        opciones: {
+            A: "Europa",
+            B: "Asia",
+            C: "África",
+            D: "Oceanía"
+        },
+        respuestaCorrecta: "C"
+    },
+    {
+        pregunta: "¿Cuál es el sistema planetario de nuestro sistema solar en el que vivimos?",
+        opciones: {
+            A: "Sistema Solar",
+            B: "Vía Láctea",
+            C: "Galaxia Andrómeda",
+            D: "Cúmulo de Virgo"
+        },
+        respuestaCorrecta: "A"
+    },
+    {
+        pregunta: "¿Cuál es el hueso más largo del cuerpo humano?",
+        opciones: {
+            A: "Húmero",
+            B: "Fémur",
+            C: "Tibia",
+            D: "Radio"
+        },
+        respuestaCorrecta: "B"
+    },
+    {
+        pregunta: "¿Cuál es el continente más frío de la Tierra?",
+        opciones: [
+            "África",
+           "Europa",
+             "Antártida",
+             "Asia"]
+        ,
+        respuestaCorrecta: "C"
+    },
+    {
+        pregunta: "¿En qué año se celebró la primera Copa del Mundo de fútbol?",
+        opciones: {
+            A: "1930",
+            B: "1950",
+            C: "1970",
+            D: "1986"
+        },
+        respuestaCorrecta: "A"
+    },
+    {
+        pregunta: "¿Quién fue el primer ser humano en orbitar la Tierra?",
+        opciones: {
+            A: "Neil Armstrong",
+            B: "Yuri Gagarin",
+            C: "John Glenn",
+            D: "Buzz Aldrin"
+        },
+        respuestaCorrecta: "B"
+    },
+    {
+        pregunta: "¿Cuál es la capital de Francia?",
+        opciones: {
+            A: "Berlín",
+            B: "Roma",
+            C: "París",
+            D: "Londres"
+        },
+        respuestaCorrecta: "C"
+    }
+    
+];

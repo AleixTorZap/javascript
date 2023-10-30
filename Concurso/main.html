@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Concursillo</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <h1>Concurso</h1>
+    </header>
+    <div>
+        <div class="pregunta" id="pregunta1">
+            <h1 id="pregunta1.1"></h1>
+            <div id="respuestas1.1">
+                <input name="respuestas1" type="radio" style="display: none;">
+                <input name="respuestas1" type="radio" style="display: none;">
+                <input name="respuestas1" type="radio" style="display: none;">
+                <input name="respuestas1" type="radio" style="display: none;">
+            </div>
+        </div>       
+        
+        <div class="pregunta" id="pregunta2">
+            <h1 id="pregunta2.1"></h1>
+            <div id="respuestas2.1">
+                <input name="respuestas2" type="radio" style="display: none;">
+                <input name="respuestas2" type="radio" style="display: none;">
+                <input name="respuestas2" type="radio" style="display: none;">
+                <input name="respuestas2" type="radio" style="display: none;">
+            </div>
+        </div>
+        <div class="pregunta" id="pregunta3">
+            <h1 id="pregunta3.1"></h1>
+            <div id="respuestas3.1">
+                <input name="respuestas3" type="radio" style="display: none;">
+                <input name="respuestas3" type="radio" style="display: none;">
+                <input name="respuestas3" type="radio" style="display: none;">
+                <input name="respuestas3" type="radio" style="display: none;">
+            </div>
+        </div>
+        
+        <div class="pregunta" id="pregunta4">
+            <h1 id="pregunta4.1"></h1>
+            <div id="respuestas4.1">
+                <input name="respuestas4" type="radio" style="display: none;">
+                <input name="respuestas4" type="radio" style="display: none;">
+                <input name="respuestas4" type="radio" style="display: none;">
+                <input name="respuestas4" type="radio" style="display: none;">
+            </div>
+        </div>
+        
+
+        <div id="mensajeResultado" style="display: none;">
+            <p id="mensaje"></p>
+        </div>
+    </div>
+    <br>
+ 
+    
+    <button id="boton" onclick="calificarRespuestas()">Calificar Respuestas</button>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
